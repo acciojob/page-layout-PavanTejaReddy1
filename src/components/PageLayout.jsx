@@ -9,11 +9,8 @@ function PageLayout({ header, footer, children }) {
 
       <main>
         {children}
-      </main>
-
-      <footer>
         {footer}
-      </footer>
+      </main>
     </div>
   );
 }
