@@ -1,3 +1,5 @@
+import React from "react";
+
 function PageLayout({ header, footer, children }) {
   return (
     <div>
